@@ -1,3 +1,5 @@
+/* FONTS INCRUSTADES */
+
 @font-face {
     font-family: 'josefinlight';
     src: url('../fonts/Josefin_Sans/static/JosefinSans-Light.ttf');
@@ -16,6 +18,9 @@
     /* font-weight: bolder;
     font-style: normal; */
 }
+
+/* ESTIL GENERAL */
+
 html{
     margin: 0;
     padding: 0;
@@ -47,6 +52,9 @@ main{
     margin-top: 20;
     padding-bottom: 100;
 }
+
+/* ESTILS PER L'ENCAPÇALAMENT */
+
 header{
     /* border: 1px solid; */
     box-sizing: border-box;
@@ -84,6 +92,9 @@ header{
 #xxss img:hover{
     width: 115%;
 }
+
+/* ESTILS PEL MENÚ DE NAVEGACIÓ */
+
 nav{
     /* border-top: 1px solid;
     border-bottom: 1px solid; */
@@ -115,6 +126,9 @@ nav a{
     border-bottom: 14px solid white;
     /* outline: 1px solid black; */
 }
+
+/* ESTILS SECCIÓ DESTACATS */
+
 .destacats{
     height: 190;
     /* border: 1px solid white; */
@@ -185,6 +199,9 @@ input[type=button]{
 input[type=button]:hover{
     box-shadow: -2px -2px 4px gray;
 }
+
+/* ESTILS SECCIÓ PRINCIPAL */
+
 .principal{
     display: flex;
     flex-wrap: wrap;
@@ -218,6 +235,9 @@ input[type=button]:hover{
     text-align: center;
     vertical-align: middle;
 }
+
+/* ESTIL FOOTER */
+
 footer{
     height: 50;
     width: 100%;

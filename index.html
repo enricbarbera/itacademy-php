@@ -5,7 +5,9 @@
   <link rel="stylesheet" href="css/estils.css">
 </head>
 <body>
+  <!-- contenidor 'main' global de tot el contingut (antic wrapper?) -->
   <main>
+  <!-- etiqueta header pel contingut de l'encapçalament -->
     <header class="marc">
       <img id="logo" src="img/logo_petit.png" alt="">
       <div id="xxss">
@@ -14,6 +16,7 @@
         <a href="#" class="rodoxxss"><img src="img/fb.png"></a>
       </div>
     </header>
+  <!-- etiqueta 'nav' pel menú de navegació -->
     <nav>
       <div class="opciomenu marc"><a href="#">MENÚ1</a></div>
       <div class="opciomenu marc"><a href="#">MENÚ2</a></div>
@@ -21,6 +24,7 @@
       <div class="opciomenu marc"><a href="#">MENÚ4</a></div>
       <div class="opciomenu marc"><a href="#">MENÚ5</a></div>
     </nav>
+  <!-- dues etiquetes 'section' per definir seccions que incorporen diferents apartats 'article' -->
     <section class="destacats">
       <article class="contingutdestacat">
         <div class="imatgedestacat destacat1"></div>
@@ -58,7 +62,9 @@
       </article>
     </section>
   </main>
+  <!-- etiqueta 'footer' pel peu de pàgina -->
   <footer class="marc">
+    <?php include 'footer.php';?> <!-- no em funcionen els includes (???) -->
   </footer>
   <?php include 'footer.php';?>
 </body>
