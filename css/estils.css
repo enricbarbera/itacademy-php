@@ -4,6 +4,7 @@
 }
 html{
     box-sizing: border-box;
+    overflow: hidden;
 }
 .contenidor{
     height: 100vh;
@@ -39,20 +40,46 @@ html{
 }
 .franja:first-child{
     background: #244F75;
+    animation-name: anim1;
+    animation-duration: 1s;
 }
 .franja:nth-child(2){
     left: 20%;
     background: #60BFBF;
+    animation-name: anim2;
+    animation-duration: 1s;
+    animation-delay: .25s;
+    animation-fill-mode: backwards;
 }
 .franja:nth-child(3){
     left: 40%;
     background: #8C4B7E;
+    animation-name: anim1;
+    animation-duration: 1s;
+    animation-delay: .5s;
+    animation-fill-mode: backwards;
 }
 .franja:nth-child(4){
     left: 60%;
     background: #F8BB44;
+    animation-name: anim2;
+    animation-duration: 1s;
+    animation-delay: .75s;
+    animation-fill-mode: backwards;
 }
 .franja:nth-child(5){
     left: 80%;
     background: #F24B4B;
+    animation-name: anim1;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+}
+@keyframes anim1 {
+    from {top: 100%;}
+    to {top: 0;}
+}
+@keyframes anim2 {
+    from {bottom: 100%;}
+    to {bottom: 0;}
 }
